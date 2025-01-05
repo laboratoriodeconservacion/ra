@@ -88,7 +88,7 @@ a{
 
 .header{
     width: 100%;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     height: auto;
     justify-content: space-between;
@@ -104,12 +104,14 @@ a{
     nav{
         ul{
             list-style: none;
-            
+            li{
+                display: inline-block;
+                margin-right: 15px
             }
             a{
                 color: black;
                 text-decoration: none;
-                font-size: 1.70em;
+                font-size: 2em;
             }
         }
     }
@@ -117,17 +119,18 @@ a{
 
 @media screen and (max-width: 768px){
     .header{
-        flex-direction: column;
         height: auto;
         padding: 15px;
         row-gap: 20px;
         align-items: center;
-        font-size: 7.5px;
+        font-size: 0.55em;
         nav{
             ul{
                 li{
+                    display:list-item;
                     margin-right: 5px;
                     margin-left: 5px;
+                    text-align: right;
                 }
             }
         }
