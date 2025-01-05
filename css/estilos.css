@@ -482,14 +482,14 @@ a{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        gap: 10px;
-        padding-bottom: 40px;
+        gap: 5px;
+        padding-bottom: 20px;
         div{
             text-align: center;
-            width: 350px;
+            width: 175px;
             img{
                 width: auto;
-                height: 360px;
+                height: 180px;
                 object-fit: cover;
             }
         }
