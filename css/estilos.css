@@ -125,6 +125,7 @@ a{
         row-gap: 20px;
         align-items: center;
         font-size: 0.55em;
+        position: relative;
         nav{
             ul{
                 li{
