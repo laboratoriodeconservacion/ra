@@ -62,14 +62,3 @@ emailjs.send(
 });
 }
 });
-
-
-document.addEventListener('DOMContentLoaded', () => {
-    const menuToggle = document.querySelector('.menu-toggle');
-    const navHeader = document.querySelector('.navHeader');
-
-    menuToggle.addEventListener('click', () => {
-        navHeader.classList.toggle('active');
-    });
-});
-
