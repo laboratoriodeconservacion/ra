@@ -25,9 +25,6 @@ body{
 }
 */
 
-
-
-
 h1{
     color:#000000;
     font-family: "MuseoModerno", sans-serif;
@@ -89,7 +86,7 @@ a{
     text-decoration: none;
 }
 
-.headerDesktop{
+.header{
     width: 100%;
     padding: 40px;
     display: flex;
@@ -104,8 +101,7 @@ a{
     .logo{
         width: 50px;
     }
-    
-    .navHeader{
+    nav{
         ul{
             list-style: none;
             li{
@@ -121,68 +117,26 @@ a{
     }
 }
 
-
-.headerMobile{
-    nav {
-        padding: 1.5rem 2rem;
-        background-color: #000000;
-        color: #fff;
+@media screen and (max-width: 768px){
+    .header{
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        row-gap: 20px;
+        align-items: center;
+        font-size: 0.55em;
+        position: relative;
+        nav{
+            ul{
+                li{
+                    
+                    margin-right: 5px;
+                    margin-left: 5px;
+                }
+            }
         }
-        
-        .checkbtn {
-            font-size: 1.5rem;
-            color: white;
-            cursor: pointer;
-        }
-        
-        .nav-mobile {
-            display: none;
-        }
-        
-        #check:checked ~ .nav-mobile {
-            display: block;
-        }
-        
-        .nav-mobile {
-            position: absolute;
-            top: 4.5rem;
-            left: 0;
-            background: #000000af;
-            z-index: 1;
-            width: 200px;
-        }
-        .nav-mobile a {
-            color: #fff;
-            padding: 1rem 1.5rem;
-            display: block;
-        }
-
-        .navHeader{
-            display: none;
-            
-        }
-}
-
-
-/* Ocultar la versión móvil por defecto */
-.headerMobile {
-    display: none;
-}
-
-/* Mostrar la versión desktop por defecto */
-
-
-/* Media query para dispositivos con ancho máximo de 768px (tablets y móviles) */
-@media (max-width: 768px) {
-    .headerDesktop {
-        display: none;
-    }
-    .headerMobile {
-        display: block;
     }
 }
-
-
 
 /*
 .header{
@@ -276,12 +230,6 @@ a{
     box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
     -webkit-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
     -moz-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
-}
-
-@media screen and (max-width: 768px){
-    .boxLogo{
-    display: none;
-    }
 }
 
 .boxGaleria{
