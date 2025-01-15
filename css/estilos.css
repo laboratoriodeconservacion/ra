@@ -128,6 +128,7 @@ a{
         position: relative;
         nav{
             ul{
+                font-size: 3em;
                 li{
                     
                     margin-right: 5px;
