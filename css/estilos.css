@@ -124,7 +124,7 @@ a{
         padding: 15px;
         row-gap: 20px;
         align-items: center;
-        font-size: 0.40em;
+        font-size: 0.35em;
         position: relative;
         nav{
             ul{
@@ -417,7 +417,7 @@ a{
 @media screen and (max-width: 768px){
     .principalRA{
         h4{
-            font-size: 0.5em;
+            font-size: 0.8em;
             color: #000000;
             display: inline-block;
             margin-bottom: 10px;
