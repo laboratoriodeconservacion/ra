@@ -124,7 +124,7 @@ a{
         padding: 15px;
         row-gap: 20px;
         align-items: center;
-        font-size: 0.55em;
+        font-size: 0.40em;
         position: relative;
         nav{
             ul{
@@ -146,11 +146,12 @@ a{
 }
 */
 
+
+
 .boxIndex{
-    display: inline-block;
+    display:inline-block; 
     text-decoration: none;
-    margin-top: 100px;
-    margin-left: 350px;
+    margin-top: 30px;
     border: 2px groove grey;
     text-align: center;
     padding: 15px;
@@ -162,10 +163,12 @@ a{
 
 @media screen and (max-width: 768px){
     .boxIndex{
-        margin-top: 60px;
-        margin-left: 170px;
         padding: 5px;
     }
+}
+
+.textJustified{
+    text-align: justify;
 }
 
 .boxRA{
@@ -268,7 +271,7 @@ a{
     margin-inline: auto;
     border: 2px groove rgba(0, 0, 0, 0.5);
     padding: 40px;
-    text-align: justify;
+    text-align: center;
     overflow: auto;
     h2{
         color:#000000;
@@ -347,7 +350,7 @@ a{
 }
 
 .principalIndex{
-    background-image: url(../assets/img/00a.png);
+    background-image: url(../assets/img/00.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -474,9 +477,17 @@ a{
 }
     
 .galeria img {
-    width: 100%; /* Hace que las imágenes ocupen el 100% del contenedor */
+    width: 50%; /* Hace que las imágenes ocupen el 100% del contenedor */
     height: auto; /* Mantiene la relación de aspecto */
     object-fit: cover;
+}
+
+@media screen and (max-width: 768px){
+    .galeria img {
+        width: 100%; /* Hace que las imágenes ocupen el 100% del contenedor */
+        height: auto; /* Mantiene la relación de aspecto */
+        object-fit: cover;
+    }
 }
 
 .fuente50px{
