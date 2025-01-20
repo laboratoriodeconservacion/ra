@@ -215,8 +215,7 @@ a{
     text-align: justify;
     overflow: auto;
     padding-top: 20px;
-    padding-left: 150px;
-    padding-right: 150px;
+    
 }
 
 @media screen and (max-width: 768px){
@@ -449,7 +448,7 @@ a{
 .galeriaQR{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 10px;
     padding-bottom: 40px;
     div{
@@ -461,6 +460,11 @@ a{
             object-fit: cover;
         }
     }
+}
+
+.contenidoCentrado{
+    display: flex;
+    justify-content: center;
 }
 
 .galeria {
