@@ -46,15 +46,15 @@ console.log("Mensaje: ", Mensaje);
 alert('Formulario enviado exitosamente. ¡Gracias!');
     
 emailjs.send(
-    'service_xm6256j', // El ID del servicio que creaste en EmailJS
-    'template_pujt3a8', // El ID del template que creaste en EmailJS
+    'service_2j91etw', // El ID del servicio que creaste en EmailJS
+    'template_2jk9hhs', // El ID del template que creaste en EmailJS
     {
         from_name: inputNombre.value,
-        to_name: 'Rodrigo',
+        to_name: 'Diamela',
         email: inputEmail.value,
         message: inputMensaje.value
     },
-    'O6Jx9_1OUfKgpryCU' // Tu ID de usuario
+    'IwHr2Zc8olDQGcRO9' // Tu ID de usuario
 ).then((response) => {
     console.log('Correo enviado:', response);
 }, (error) => {
