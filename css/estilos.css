@@ -497,13 +497,18 @@ a{
     object-fit: cover;
 }
 
+.obleas{
+    padding-top: 30px;
+}
+
 @media screen and (max-width: 768px){
     .galeria img {
         width: 75%; /* Hace que las imágenes ocupen el 100% del contenedor */
         height: auto; /* Mantiene la relación de aspecto */
         object-fit: cover;
     }
-    .obleaCelular{
+    .obleas{
+        padding-top: 0px;
         padding-bottom: 30px;
     }
 }
