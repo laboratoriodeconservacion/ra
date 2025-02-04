@@ -503,6 +503,9 @@ a{
         height: auto; /* Mantiene la relación de aspecto */
         object-fit: cover;
     }
+    .obleaCelular{
+        padding-bottom: 30px;
+    }
 }
 
 .fuente50px{
