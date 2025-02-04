@@ -162,6 +162,7 @@ a{
     -webkit-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
     -moz-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
     backdrop-filter: blur(5px);
+    border-radius: 10px; /* Ajusta este valor para cambiar el redondeado */
 }
 
 @media screen and (max-width: 768px){
@@ -197,6 +198,7 @@ a{
     -webkit-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
     -moz-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.74);
     backdrop-filter: blur(5px);
+    border-radius: 10px; /* Ajusta este valor para cambiar el redondeado */
     }
 }
 
@@ -490,14 +492,14 @@ a{
 }
     
 .galeria img {
-    width: 50%; /* Hace que las imágenes ocupen el 100% del contenedor */
+    width: 75%; /* Hace que las imágenes ocupen el 100% del contenedor */
     height: auto; /* Mantiene la relación de aspecto */
     object-fit: cover;
 }
 
 @media screen and (max-width: 768px){
     .galeria img {
-        width: 100%; /* Hace que las imágenes ocupen el 100% del contenedor */
+        width: 75%; /* Hace que las imágenes ocupen el 100% del contenedor */
         height: auto; /* Mantiene la relación de aspecto */
         object-fit: cover;
     }
