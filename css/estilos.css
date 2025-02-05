@@ -179,6 +179,13 @@ a{
     padding-bottom: 10px;
 }
 
+.textJustifiedGlosario{
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
 .textPadding{
     padding: 40px;
 }
