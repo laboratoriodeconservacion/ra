@@ -75,6 +75,12 @@ h5{
     padding-bottom: 30px;
 }
 
+@media screen and (max-width: 768px){
+    h5{
+        padding-top: 10px;
+    }
+}
+
 h6{
     color:#000000;
     font-family: "MuseoModerno", sans-serif;
@@ -555,7 +561,7 @@ a{
 
     .obleas{
         padding-top: 0px;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
 }
 
