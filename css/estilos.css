@@ -88,12 +88,15 @@ a{
 
 .header{
     width: 100%;
-    padding: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
     display: flex;
     height: auto;
     justify-content: space-between;
     align-items: center;
-    font-size: 10px;
+    font-size: 8px;
     background-color: rgba(255, 255, 255, 0.795);
     position: sticky;
     top: 0;
@@ -178,7 +181,12 @@ a{
 
 .textPadding{
     padding: 40px;
-    
+}
+
+.textGlosario{
+    padding-bottom: 40px;
+    padding-left: 40px;    
+    padding-right: 40px;
 }
 
 .boxRA{
@@ -502,6 +510,9 @@ a{
 }
 
 @media screen and (max-width: 768px){
+    .galeria {
+        padding-bottom: 0px;
+    }
     .galeria img {
         width: 75%; /* Hace que las imágenes ocupen el 100% del contenedor */
         height: auto; /* Mantiene la relación de aspecto */
