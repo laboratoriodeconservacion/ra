@@ -70,8 +70,17 @@ h5{
     color:#000000;
     font-family: "MuseoModerno", sans-serif;
     text-align: center;
-    font-size: 2rem;
-    padding-top: 20px;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h6{
+    color:#000000;
+    font-family: "MuseoModerno", sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 60px;
     padding-bottom: 30px;
 }
 
