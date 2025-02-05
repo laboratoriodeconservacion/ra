@@ -504,9 +504,10 @@ a{
 .galeria {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 10px;
+    justify-content: center;
     padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
     
 .galeria div {
@@ -516,8 +517,11 @@ a{
     
 .galeria img {
     width: 75%; /* Hace que las imágenes ocupen el 100% del contenedor */
+    max-width: 250px;
     height: auto; /* Mantiene la relación de aspecto */
     object-fit: cover;
+    padding-top: 30px;
+    margin: 10px;
 }
 
 .obleas{
@@ -532,6 +536,8 @@ a{
         width: 75%; /* Hace que las imágenes ocupen el 100% del contenedor */
         height: auto; /* Mantiene la relación de aspecto */
         object-fit: cover;
+        padding-top: 0px;
+        margin: 0px;
     }
     .obleas{
         padding-top: 0px;
