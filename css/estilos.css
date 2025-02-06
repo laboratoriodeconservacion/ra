@@ -304,19 +304,13 @@ a{
     background-color: hsl(0, 0%, 100%);
     margin-inline: auto;
     border: 2px groove rgba(0, 0, 0, 0.5);
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     text-align: center;
     overflow: auto;
     h2{
         color:#000000;
         text-align: center;
         padding-top: 0px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .boxContacto{
-        padding-bottom: 80px;
     }
 }
 
