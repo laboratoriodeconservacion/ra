@@ -314,6 +314,12 @@ a{
     }
 }
 
+@media screen and (max-width: 768px){
+    .boxContacto{
+        padding-bottom: 80px;
+    }
+}
+
 .boxSobre{
     font-size: 3rem;
     box-sizing: content-box;
